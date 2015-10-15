@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
   s.author   = 'John Engelhart'
   s.source   = { :git => 'git@github.com:gamechanger/JSONKit.git', :tag => '1.5.1' }
 
+  s.requires_arc = false
   s.source_files = 'JSONKit.*'
   s.exclude_files = '*.podspec'
 end
