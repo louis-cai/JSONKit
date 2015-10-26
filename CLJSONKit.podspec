@@ -9,5 +9,7 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/louis-cai/JSONKit.git', :tag => '1.5.2' }
 
   s.requires_arc = false
+  s.platform = :ios
+  s.ios.deployment_target = "5.0"
   s.source_files = 'JSONKit.*'
 end
